@@ -52,6 +52,22 @@ python guardpixelops.py --winupdate <FTP_Relay_information> --wintoken <Authenti
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the script: `python guardpixelops.py`
 
+### Compiling to .exe
+
+To enhance portability and simplify distribution, you can compile GuardPixelOps into a standalone executable (.exe) file using [PyInstaller](https://www.pyinstaller.org/).
+
+Ensure you have PyInstaller installed:
+
+```bash
+pip install pyinstaller
+```
+
+Navigate to the directory containing guardpixelops.py and run the following command in the command prompt:
+```bash
+pyinstaller --clean -w -F -i NONE "guardpixelops.py" --noconsole
+```
+Now, you can distribute and run GuardPixelOps as a standalone executable without requiring Python or additional dependencies.
+
 ## Disclaimer
 GuardPixelOps is intended for educational and research purposes only. Users are responsible for complying with applicable laws and regulations.
 
