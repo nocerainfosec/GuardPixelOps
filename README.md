@@ -68,6 +68,20 @@ pyinstaller --clean -w -F -i NONE "guardpixelops.py" --noconsole
 ```
 Now, you can distribute and run GuardPixelOps as a standalone executable without requiring Python or additional dependencies.
 
+### Folders and Logs
+During the execution of GuardPixelOps, the script creates a folder structure within the WindowsFiles directory. Here's an overview:
+
+WindowsFiles:
+- `Updates`: Contains temporary files used during the update process.
+- `Drivers`: Contains compressed driver backup files.
+- `Logs`: The log file (logs-drivers.txt) is created in the same directory as the executable.
+Make sure to check the logs for important information and any error messages, LOL.
+
+Note: Adjust the command and paths as needed based on your preferences.
+
+
+
+
 ## Disclaimer
 GuardPixelOps is intended for educational and research purposes only. Users are responsible for complying with applicable laws and regulations.
 
