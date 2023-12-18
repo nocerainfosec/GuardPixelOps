@@ -5,6 +5,25 @@
 ## Overview
 GuardPixelOps is a powerful tool designed for Red Team operations and adversary simulations. This Python script focuses on Windows environments, specifically addressing issues sending screenshots. The tool offers functionalities for capturing screenshots and insecurely sending logs to a designated FTP server.
 
+### Important Note: Encoding Information in Base64
+
+Before using GuardPixelOps, please ensure that you encode the following information in Base64 format for the respective command-line arguments:
+
+- `--winupdate`: Microsoft Relay Information
+- `--wintoken`: Windows Token
+- `--winversion`: Windows Version
+
+Here's an example of how to encode information in Base64 using Python:
+
+```bash
+echo -n "your_information_here" | base64
+```
+Here's an example of how to encode information in Base64 using Powershell:
+
+```bash
+[System.Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes("your_information_here"))
+```
+
 ## Features
 - **Automated Driver Fixes:** GuardPixelOps identifies and fixes broken drivers in the Windows environment. OF COURSE NOT! This is a joke!
 - **Screenshot Capture:** The tool captures screenshots of the active window when a broken driver is detected, providing visual context for analysis. (You kidding me?! It takes screenshots based on the active Window!)
