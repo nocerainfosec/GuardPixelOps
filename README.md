@@ -5,8 +5,11 @@
 ## Overview
 GuardPixelOps is a powerful tool designed for Red Team operations and adversary simulations. This Python script focuses on Windows environments, specifically addressing issues sending screenshots. The tool offers functionalities for capturing screenshots and insecurely sending logs to a designated FTP server.
 
-### DEMO
+## DEMO
 [https://github.com/nocerainfosec/GuardPixelOps/blob/main/demo/GuardPixelOps%20-%20Demo.mp4](https://github.com/nocerainfosec/GuardPixelOps/assets/105872185/c85991fe-3aa2-482a-8925-80e6c335158a)
+
+## HIDE AS A SHORTCUT TECHNIQUE
+[https://github.com/nocerainfosec/GuardPixelOps/blob/main/demo/GuardPixelOps%20-%20Demo02.mp4](https://github.com/nocerainfosec/GuardPixelOps/assets/105872185/7f939c51-dbe7-4b1f-b9a7-af0fa43f4c4e)
 
 ### Important Note: Encoding Information in Base64
 
